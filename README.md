@@ -179,13 +179,6 @@ To set up and run the project locally:
 
 ## Usage Guide
 ### Flight Data Visualizer
-![image](https://github.com/user-attachments/assets/e5630eba-dbf4-4caf-b563-57a36e6c9c5b)
-![image](https://github.com/user-attachments/assets/81f7ad5a-1ba5-4a2b-9588-07e977967018)
-![image](https://github.com/user-attachments/assets/4fc5f4dd-6a22-4042-a8bc-c1687320fa6e)
-![image](https://github.com/user-attachments/assets/4815bcde-6811-42f1-9a81-ae21372e8b08)
-
-
-
 
 1. **Load Data**:
    - Upload a `.bin` file via a file input (to be implemented) or load a sample file from `public/data/`.
@@ -202,7 +195,6 @@ To set up and run the project locally:
    - Observe real-time telemetry updates in the dashboard during playback.
 
 ### Mission Planner
-![image](https://github.com/user-attachments/assets/b15944e7-f2e7-4753-b111-7505b4f2a620)
 
 1. **Define Mission Area**:
    - Click on the map to add 3+ points, forming a red polygon (opacity 0.4).
