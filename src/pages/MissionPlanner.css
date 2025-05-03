@@ -1,0 +1,110 @@
+.mission-planner {
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  .mission-planner h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  .planner-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .map-container {
+    flex: 2;
+    min-width: 300px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .sidebar {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .point-list, .flight-settings, .metrics {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .point-list h3, .flight-settings h3, .metrics h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+  }
+  
+  .point-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .point-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #dfe6e9;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    transition: border-color 0.3s;
+  }
+  
+  .point-input input:focus {
+    border-color: #0984e3;
+    outline: none;
+  }
+  
+  .point-input button, .add-point-btn {
+    padding: 8px 12px;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+  }
+  
+  .point-input button:hover, .add-point-btn:hover {
+    background: #c0392b;
+  }
+  
+  .add-point-btn {
+    background: #27ae60;
+    margin-top: 10px;
+  }
+  
+  .add-point-btn:hover {
+    background: #219653;
+  }
+  
+  .metrics p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #34495e;
+  }
+  
+  @media (max-width: 768px) {
+    .planner-container {
+      flex-direction: column;
+    }
+  
+    .map-container, .sidebar {
+      width: 100%;
+    }
+  }

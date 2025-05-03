@@ -1,0 +1,63 @@
+/* Container for the map view */
+.map-container {
+    background-color: #222;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative; /* Ensure the button is positioned relative to this container */
+}
+
+/* Label for map type selection */
+.choose-map-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Map selection buttons container */
+.map-buttons {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* Style for the map selection buttons */
+.map-buttons button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+}
+
+/* Hover effect for buttons */
+.map-buttons button:hover {
+    background-color: #00BFFF;
+}
+
+/* Style for the "Locate Drone" button */
+.locate-drone-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute; /* Absolute position within the map container */
+    top: 20px; /* 20px from the top */
+    right: 20px; /* 20px from the right */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for "Locate Drone" button */
+.locate-drone-btn:hover {
+    background-color: #00BFFF;
+}
