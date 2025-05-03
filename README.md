@@ -69,26 +69,47 @@ This platform streamlines UAV operations by combining post-flight analysis with 
 
 ## Project Structure
 ```plaintext
-uav-flight-planner-visualizer/
-├── public/
-│   ├── index.html              # Entry point for the React app
-│   ├── data/                   # Folder for .bin files (optional, for flight logs)
-│   └── favicon.ico             # App icon
-├── src/
-│   ├── components/
-│   │   ├── MapView.jsx         # Renders 2D maps with flight paths and polygons
-│   │   ├── FlightSettings.jsx  # Configures drone settings (altitude, speed)
-│   │   ├── WaypointList.jsx    # Displays and edits mission waypoints
-│   │   ├── LiveTelemetry.jsx   # Shows real-time telemetry metrics
-│   │   └── Graphs.jsx          # Renders interactive telemetry graphs (assumed)
-│   ├── MissionPlanner.jsx      # Core component for mission planning and visualization
-│   ├── App.jsx                 # Root component
-│   ├── index.js                # React app bootstrap
-│   ├── MissionPlanner.css      # Styles for the platform
-│   └── App.css                 # Global styles
-├── package.json                # Project dependencies and scripts
-├── .gitignore                  # Ignores node_modules, build artifacts
-└── README.md                   # Project documentation
+Directory structure:
+└── gauravsinghiitb-uav-mission-planning-and-log-data-visualization-platform/
+    ├── README.md
+    ├── package.json
+    ├── public/
+    │   ├── index.html
+    │   ├── manifest.json
+    │   └── robots.txt
+    └── src/
+        ├── App.css
+        ├── App.js
+        ├── App.test.js
+        ├── index.css
+        ├── index.js
+        ├── reportWebVitals.js
+        ├── setupTests.js
+        ├── components/
+        │   ├── ControlPanel.jsx
+        │   ├── Controls.jsx
+        │   ├── Dashboard.jsx
+        │   ├── FlightSettings.jsx
+        │   ├── Gauges.jsx
+        │   ├── Graphs.jsx
+        │   ├── LiveTelemetry.jsx
+        │   ├── Map3D.jsx
+        │   ├── MapView.css
+        │   ├── MapView.jsx
+        │   ├── TelemetryPanel.jsx
+        │   ├── TimelineBar.jsx
+        │   ├── WaypointList.jsx
+        │   └── ws.js
+        ├── hooks/
+        │   └── useFakeTelemetry.js
+        ├── pages/
+        │   ├── coverage.js
+        │   ├── MissionPlanner.css
+        │   └── MissionPlanner.jsx
+        └── utlis/
+            ├── coverage.js
+            └── ws.js
+
 ```
 
 ## Algorithm Details
@@ -158,6 +179,14 @@ To set up and run the project locally:
 
 ## Usage Guide
 ### Flight Data Visualizer
+![image](https://github.com/user-attachments/assets/e5630eba-dbf4-4caf-b563-57a36e6c9c5b)
+![image](https://github.com/user-attachments/assets/81f7ad5a-1ba5-4a2b-9588-07e977967018)
+![image](https://github.com/user-attachments/assets/4fc5f4dd-6a22-4042-a8bc-c1687320fa6e)
+![image](https://github.com/user-attachments/assets/4815bcde-6811-42f1-9a81-ae21372e8b08)
+
+
+
+
 1. **Load Data**:
    - Upload a `.bin` file via a file input (to be implemented) or load a sample file from `public/data/`.
    - The app parses the file asynchronously, extracting flight coordinates and telemetry.
@@ -173,6 +202,8 @@ To set up and run the project locally:
    - Observe real-time telemetry updates in the dashboard during playback.
 
 ### Mission Planner
+![image](https://github.com/user-attachments/assets/b15944e7-f2e7-4753-b111-7505b4f2a620)
+
 1. **Define Mission Area**:
    - Click on the map to add 3+ points, forming a red polygon (opacity 0.4).
    - Edit coordinates or remove points via the sidebar for precision.
