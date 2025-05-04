@@ -7,6 +7,12 @@ The **UAV Flight Data Visualizer and Mission Planner** is a sophisticated web-ba
 2. **Mission Planner**: Enables users to define mission areas by selecting points on a map, generating optimized flight paths using a machine learning-inspired lawnmower algorithm. The algorithm minimizes waypoints and flight distance while ensuring complete area coverage, with automatic path updates and mission metrics (distance, time).
 
 This platform streamlines UAV operations by combining post-flight analysis with pre-flight planning. Its **modular architecture**, built with reusable React components, ensures scalability, maintainability, and extensibility. The project demonstrates advanced skills in geospatial visualization, path optimization, React state management, asynchronous data processing, and responsive UI design, making it a valuable tool for UAV mission management.
+![image](https://github.com/user-attachments/assets/f5d1e483-bdec-49f6-a345-370851e3c9a3)
+![image](https://github.com/user-attachments/assets/fec44ee1-f8e7-4f44-a880-ee019abb7c5f)
+![image](https://github.com/user-attachments/assets/aad420df-598e-42a9-9d08-b11456545720)
+
+
+
 
 ## Features
 
@@ -28,6 +34,10 @@ This platform streamlines UAV operations by combining post-flight analysis with 
   - Includes gauges or numeric displays for intuitive monitoring.
 
 ### Mission Planner
+![image](https://github.com/user-attachments/assets/3e1e4f0f-cd72-483b-800a-2ad22db3ee0d)
+![image](https://github.com/user-attachments/assets/2532abe8-10f4-454f-afbb-7a09372b229b)
+
+
 - **Interactive Mission Area Definition**:
   - Allows users to click on the map or input coordinates to create polygons (minimum 3 points) defining the mission area.
   - Supports point editing and removal via a sidebar interface for precise area adjustments.
