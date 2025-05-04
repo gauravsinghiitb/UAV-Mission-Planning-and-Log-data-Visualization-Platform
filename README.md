@@ -35,7 +35,7 @@ This platform streamlines UAV operations by combining post-flight analysis with 
 
 ### Mission Planner
 ![image](https://github.com/user-attachments/assets/3e1e4f0f-cd72-483b-800a-2ad22db3ee0d)
-![image](https://github.com/user-attachments/assets/2532abe8-10f4-454f-afbb-7a09372b229b)
+
 
 
 - **Interactive Mission Area Definition**:
