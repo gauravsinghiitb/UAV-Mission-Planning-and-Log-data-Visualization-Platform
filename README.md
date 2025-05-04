@@ -283,21 +283,7 @@ Contributions are welcome! To contribute:
 4. Push to the branch: `git push origin feature/your-feature`.
 5. Open a pull request with a detailed description of changes.
 
-Please adhere to the [Code of Conduct](CODE_OF_CONDUCT.md) and include tests for new features.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-
 ## Contact
 For questions, suggestions, or collaboration:
-- **GitHub Issues**: [github.com/your-username/uav-flight-planner-visualizer/issues](https://github.com/your-username/uav-flight-planner-visualizer/issues)
-- **Email**: [your-email@example.com]
-
-## Acknowledgments
-- **Leaflet**: For robust 2D map rendering.
-- **React**: For a flexible, component-based frontend framework.
-- **Open-Source Community**: For inspiration and libraries that made this project possible.
-
----
-
-**Note**: Replace `your-username` and `your-email@example.com` with your actual GitHub username and contact email before uploading. If you haven't created a `LICENSE` or `CODE_OF_CONDUCT.md`, generate them via GitHub or remove the references.
+- **GitHub Issues**: [github.com/gauravsinghiitb/uav-flight-planner-visualizer/issues](https://github.com/gauravsinghiitb/uav-flight-planner-visualizer/issues)
+- **Email**: [singhgaurav2114@gmail.com]
